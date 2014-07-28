@@ -1,0 +1,25 @@
+{
+  "name": "OEmbed.nl jQuery plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fetch/oembed.js",
+  "authors": [
+    "Koen Punt <koen@fetch.nl>"
+  ],
+  "description": "OEmbed.nl jQuery plugin",
+  "main": "src/oembed.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "oembed",
+    "oembed.nl"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
