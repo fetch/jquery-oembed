@@ -15,7 +15,7 @@
 })(this, function(root, $){
 
   $.fn.oembed = function(options){
-    this.each(function(index) {
+    return this.each(function(index) {
       var element = $(this);
       options = $.extend({ url: element.attr('data-url') }, $.fn.oembed.defaults, element.data('oembedOptions'), options);
       $.get('//oembed.nl/?callback=?', options, function(data) {
