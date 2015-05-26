@@ -16,9 +16,9 @@
 
   $.fn.oembed = function(options){
     return this.each(function(index) {
-      var element = $(this);
-      options = $.extend({ url: element.attr('data-url') }, $.fn.oembed.defaults, element.data('oembedOptions'), options);
-      $.get('//oembed.nl/?callback=?', options, function(data) {
+      var element = $(this), opts;
+      opts = $.extend($.fn.oembed.defaults, { url: element.attr('data-url') }, element.data('oembedOptions'), options);
+      $.get('//oembed.nl/?callback=?', opts, function(data) {
         element.html(data.html).trigger('oembed:loaded');
       }, 'jsonp');
     });
