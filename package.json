@@ -1,0 +1,19 @@
+{
+  "name": "jquery-oembed",
+  "version": "0.1.0",
+  "description": "OEmbed.nl jQuery plugin",
+  "main": "src/oembed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fetch/jquery-oembed.git"
+  },
+  "author": "Koen Punt <koen@fetch.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fetch/jquery-oembed/issues"
+  },
+  "homepage": "https://github.com/fetch/jquery-oembed#readme"
+}
